@@ -1,10 +1,7 @@
 import re
 import nltk
 
-nltk.download("punkt")
-nltk.download("averaged_perceptron_tagger")
-nltk.download("maxent_ne_chunker")
-nltk.download("words")
+nltk.data.path.append("./nltk_data") # Set path to NLTK data directory
 
 from nltk import word_tokenize, pos_tag, ne_chunk
 from nltk.tree import Tree

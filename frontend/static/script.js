@@ -12,7 +12,7 @@ document.getElementById("uploadBtn").addEventListener("click", function() {
 
     document.getElementById("loading").style.display = "block"; // Show loading spinner
 
-    fetch("/upload", {  // Change to backend URL
+    fetch("/upload", {  
         method: "POST",
         body: formData
     })
@@ -29,6 +29,7 @@ document.getElementById("uploadBtn").addEventListener("click", function() {
     })
     .catch(error => {
         console.error("Error:", error);
+        console.log(error);
         document.getElementById("loading").style.display = "none";
         alert("Error processing resume.");
     });
