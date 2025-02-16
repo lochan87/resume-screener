@@ -1,0 +1,128 @@
+/* body {
+    background-color: #f4f7fc;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    width: 100%;
+    font-weight: bold;
+}
+
+#loading {
+    font-size: 16px;
+    color: #007bff;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #007bff, #00b4db);
+    color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    /* text-align: center;
+}
+
+#result h4, #result h5 {
+    font-weight: bold;
+    color: #fff;
+}
+
+#result p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#score {
+    font-size: 22px;
+    font-weight: bold;
+    background: white;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+} */
+
+body {
+    background-color: #f4f7fc;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for the main card */
+.card {
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Primary button */
+.btn-primary {
+    width: 100%;
+    font-weight: bold;
+    background: #ff914d; /* Orange */
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #e57c30; /* Darker orange */
+}
+
+/* Result Card */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #4CAF50, #81C784); /* Green gradient */
+    color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    /* text-align: center; */
+}
+
+/* Candidate details section */
+#result h4, #result h5 {
+    font-weight: bold;
+    color: #fff;
+}
+
+#result p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Resume Score */
+#score {
+    font-size: 22px;
+    font-weight: bold;
+    background: white;
+    color: #47c945;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* File upload input */
+input[type="file"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Header */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
