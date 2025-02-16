@@ -5,7 +5,7 @@ Resume Screener is a **Python-based web application** that utilizes **NLP (Natur
 ---
 
 ### 🔗 Live Demo  
-[![Deployed on Vercel](https://img.shields.io/badge/Vercel-Live-blue)](https://resume-screener-eta.vercel.app/)
+🔗 [Resume Screener](https://resume-screener-eta.vercel.app/)
 
 ## 🏗 Tech Stack  
 - **Backend:** Python (Flask, NLP with NLTK)  
