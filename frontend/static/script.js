@@ -12,7 +12,7 @@ document.getElementById("uploadBtn").addEventListener("click", function() {
 
     document.getElementById("loading").style.display = "block"; // Show loading spinner
 
-    fetch("http://127.0.0.1:5000/upload", {  // Change to backend URL
+    fetch("/upload", {  // Change to backend URL
         method: "POST",
         body: formData
     })
@@ -32,4 +32,9 @@ document.getElementById("uploadBtn").addEventListener("click", function() {
         document.getElementById("loading").style.display = "none";
         alert("Error processing resume.");
     });
+});
+
+document.getElementById("resumeInput").addEventListener("change", function () {
+    // Clear previous results when a new file is selected
+    document.getElementById("result").style.display = "none";
 });
