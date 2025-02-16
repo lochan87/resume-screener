@@ -1,6 +1,16 @@
-# 📝 AI Resume Screener
+# 📝 Resume Screener
 
-AI Resume Screener is a **Python-based web application** that extracts and analyzes information from resumes using **NLP (Natural Language Processing)**. It ranks candidates based on their **skills, experience, and projects**.
+Resume Screener is a **Python-based web application** that utilizes **NLP (Natural Language Processing)** to extract and analyze key details from resumes. It evaluates candidates based on **skills, experience, and projects**, ranking them intelligently to streamline the hiring process. Designed for efficiency, it helps **recruiters quickly identify the most suitable candidates.**
+
+---
+
+### 🔗 Live Demo  
+[![Deployed on Vercel](https://img.shields.io/badge/Vercel-Live-blue)](https://resume-screener-eta.vercel.app/)
+
+## 🏗 Tech Stack  
+- **Backend:** Python (Flask, NLP with NLTK)  
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap  
+- **PDF Processing:** PyMuPDF (fitz)  
 
 ---
 
@@ -39,3 +49,8 @@ The resume score is calculated based on **Skills, Experience, and Projects**, wi
 💡 **Final Score = (Skills Score) + (Experience Score) + (Projects Score)**
   
 ---
+
+## 📌 Future Enhancements  
+✅ Support for more resume formats (DOCX, TXT)  
+✅ ML-based Ranking for better scoring  
+✅ Resume Parsing Optimization  
